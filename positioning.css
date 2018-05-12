@@ -1,0 +1,37 @@
+body {
+    position: fixed;
+}
+
+#content {
+    margin: 0 300px 0 300px;
+}
+
+p {
+    color: #999;
+    padding-top: 10px;
+    line-height: 40px;
+}
+
+#fixed-position {
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    background-color: #eee;
+}
+
+#relative-position {
+    position: relative;
+    padding: 120px;
+    background-color: #eee;
+}
+
+#absolute-position {
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+    background-color: #999;
+    padding: 50px;
+    z-index: 5;
+}
